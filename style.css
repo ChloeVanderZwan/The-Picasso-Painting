@@ -1,0 +1,88 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+.container {
+  display: flex; /* Enables Flexbox */
+  flex-direction: 
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    gap: 0px;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.red {
+  background-color: red;
+  border: 5px black solid;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+}
+.blue {
+  background-color: blue;
+  border: 5px black solid;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.white {
+  background-color: white;
+  border: 5px black solid;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.white2 {
+    background-color: white;
+    border: 5px black solid;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.red2 {
+    background-color: red;
+    border: 5px black solid;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.white3 {
+    background-color: white;
+    border: 5px black solid;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red3 {
+        background-color: red;
+        border: 5px black solid;
+        z-index: 1;
+        width: 280px;
+        height: 100px;
+        display: flex;
+        justify-content: left;
+    }
